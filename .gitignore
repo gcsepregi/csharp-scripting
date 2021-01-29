@@ -1,0 +1,8 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+/.idea/.idea.FourShardsScript/.idea/.gitignore
+/.idea/.idea.FourShardsScript/.idea/indexLayout.xml
+/.idea/.idea.FourShardsScript/.idea/vcs.xml
