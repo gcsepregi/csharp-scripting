@@ -1,6 +1,6 @@
 namespace FourShardsScript.Ast
 {
-    public class Num : IAstNode
+    public class Num : AstNode
     {
         private Token _token;
         public object Value { get; }

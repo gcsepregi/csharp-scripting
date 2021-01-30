@@ -1,12 +1,12 @@
 namespace FourShardsScript.Ast
 {
-    public class BinOp : IAstNode
+    public class BinOp : AstNode
     {
-        public IAstNode Left { get; }
+        public AstNode Left { get; }
         public Token Op { get; }
-        public IAstNode Right { get; }
+        public AstNode Right { get; }
 
-        public BinOp(IAstNode left, Token op, IAstNode right)
+        public BinOp(AstNode left, Token op, AstNode right)
         {
             Left = left;
             Op = op;

@@ -1,6 +1,6 @@
 namespace FourShardsScript.Ast
 {
-    public interface IAstNode
+    public class NoOp : AstNode
     {
         
     }

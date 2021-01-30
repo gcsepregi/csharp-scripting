@@ -1,11 +1,11 @@
 namespace FourShardsScript.Ast
 {
-    public class UnaryOp : IAstNode
+    public class UnaryOp : AstNode
     {
         public Token Op { get; }
-        public IAstNode Expr { get; }
+        public AstNode Expr { get; }
 
-        public UnaryOp(Token op, IAstNode expr)
+        public UnaryOp(Token op, AstNode expr)
         {
             Op = op;
             Expr = expr;
